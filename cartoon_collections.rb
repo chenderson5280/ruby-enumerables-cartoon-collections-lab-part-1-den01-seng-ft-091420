@@ -13,4 +13,5 @@ def list_dwarves(array)
   # Print a numbered list of each element
   array.eash do |dudes|
     puts dudes
+  end
 end
