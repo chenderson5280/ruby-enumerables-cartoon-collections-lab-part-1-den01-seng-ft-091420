@@ -12,7 +12,7 @@ def list_dwarves(array)
   #
   # Print a numbered list of each element
 count = 0
-  array.eash do |dudes|
+  array.each do |dudes|
     count +=1
     puts "#{count}. #{dudes}"
 
